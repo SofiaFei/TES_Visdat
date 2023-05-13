@@ -1,4 +1,4 @@
-d3.csv("data/Angka Partisipasi Sekolah 2011.csv", d3.autotype).then((data) => {
+d3.csv("data/Angka Partisipasi Sekolah 2017.csv", d3.autotype).then((data) => {
   /*
   
   Data SD
@@ -48,7 +48,8 @@ d3.csv("data/Angka Partisipasi Sekolah 2011.csv", d3.autotype).then((data) => {
     .attr("x", (d) => x(d.Provinsi))
     .attr("width", x.bandwidth())
     .attr("y", (d) => y(d.SD))
-    .attr("height", (d) => height - y(d.SD));
+    .attr("height", (d) => height - y(d.SD))
+    .attr("fill", "red");
 
   // Add chart title
   svg

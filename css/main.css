@@ -1,0 +1,54 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+
+.axis line, .axis path {
+  fill: none;
+  stroke: #000;
+}
+
+.title {
+	text-anchor:middle;
+}
+
+.axis text {
+  font-size:10px;
+}
+
+.bar {
+  fill:lightblue;
+  opacity:0.7;
+  stroke: black;
+}
+
+
+
+.my-table th, .my-table td {
+  border: 1px solid black;
+  padding: 5px;
+}
+
+.tooltip {
+  position: absolute;
+  text-align: center;
+  width: 100px;
+  height: 40px;
+  padding: 2px;
+  font: 12px sans-serif;
+  background: white;
+  border: 3px solid black;
+  border-radius: 8px;
+  pointer-events: none;
+}
+
+#tooltip { position: absolute; display: none; /* ... other tooltip styles ... */ }
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: auto;
+  gap: 10px;
+}
+
+.grid-item {
+  border: 1px solid #ccc;
+  padding: 10px;
+}

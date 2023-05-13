@@ -1,0 +1,35 @@
+<!doctype html>
+<html lang="id-id">
+
+<head>
+    <meta charset="utf-8">
+    <title>Partisipasi Pendidikan di Indonesia</title>
+    <meta name="description" content="Visualisasi interaktif partisipasi pendidikan di Indonesia">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="node_modules/reset-css/reset.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:300,400i,700|Lora:400,400i,700" rel="stylesheet">
+    <link rel="stylesheet" href="css/style.css">
+
+    <meta name="theme-color" content="#3F79B9">
+</head>
+
+<body>
+    <section class="story">
+        <h2>Persebaran Tingkat Partisipasi Pendidikan</h2>
+        <p class="description">
+            Peta ini menunjukkan persebaran angka partisipasi sekolah per provinsi di Indonesia.
+        </p>
+        <svg id="choropleth"></svg>
+    </section>
+
+    <script src="node_modules/d3/dist/d3.min.js"></script>
+    <script src="node_modules/d3-simple-slider/dist/d3-simple-slider.min.js"></script>
+    <script src="node_modules/topojson/dist/topojson.min.js"></script>
+    <script src="js/choropleth.js"></script>
+    <script src="d3-sankey-align-top.js"></script>
+    <script src="js/sankey.js"></script>
+    <script src='js/factors.js'></script>
+</body>
+
+</html>

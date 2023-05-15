@@ -121,6 +121,10 @@
     min-width: 720px;
     max-height: 480px;
   }
+
+  #chart {
+    margin-top: 30px;
+  }
   
   #choropleth .legend-label {
     font-size: 0.9rem;
